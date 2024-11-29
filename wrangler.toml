@@ -1,4 +1,2 @@
-[
-build
-]
+[build]
 command = "npm run build"
