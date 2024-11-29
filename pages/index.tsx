@@ -1,12 +1,9 @@
-import type { NextPage } from 'next';
-import ColdEmailGenerator from '@/components/ColdEmailGenerator';
+import ColdEmailGenerator from "../components/ColdEmailGenerator";
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
     <div className="min-h-screen p-4">
       <ColdEmailGenerator />
     </div>
   );
-};
-
-export default Home;
+}
